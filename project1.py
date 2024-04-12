@@ -3,7 +3,7 @@ import pickle
 import spacy
 
 # Load the trained SVM model
-with open(r"C:\Users\91735\Downloads\svm_model.pkl", 'rb') as f:
+with open(r"svm_model.pkl", 'rb') as f:
     sv = pickle.load(f)
 
 # Load SpaCy model
